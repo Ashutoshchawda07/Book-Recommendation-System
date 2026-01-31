@@ -8,7 +8,7 @@ similarity_scores = joblib.load(open('Notebooks/similarity_scores.pkl', 'rb'))
 books_df = joblib.load(open('Notebooks/books_df.pkl', 'rb'))
 book_user_matrix = joblib.load(open('Notebooks/book_user_matrix.pkl', 'rb'))
 
-app = Flask(__name__)
+app = Flask(__name__ ,template_folder="Templates")
 
 @app.route('/')
 def home():
