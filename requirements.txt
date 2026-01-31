@@ -1,0 +1,18 @@
+# Web Framework
+Flask==2.3.3
+
+# Data Manipulation and Math
+pandas
+numpy
+
+# Machine Learning and Similarity
+scikit-learn
+
+# Data Serialization (Saving/Loading Models)
+joblib
+
+# Visualization (used in Notebook)
+matplotlib
+
+# Server for production (Optional but recommended)
+gunicorn
